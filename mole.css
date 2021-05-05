@@ -1,1 +1,21 @@
-/* Write your CSS here. */
+.gameSpace {
+  position: relative;
+  height: 482px;
+  width: 640px;
+}
+
+.mole {
+  position: absolute;
+  height: 262px;
+  width: 376px;
+  left: 110px;
+  top: 100px;
+}
+
+.dirt {
+  position: absolute;
+  height: 220px;
+  width: 640px;
+  top: 262px;
+  /* bottom: 0px */
+}
