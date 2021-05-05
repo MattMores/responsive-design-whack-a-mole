@@ -28,3 +28,12 @@
   /* transition: margin-top;
   transition-duration: 0.25s; */
 }
+
+.playingField {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "box1 box2 box3 box4"
+  "box5 box6 box7 box8"
+}
