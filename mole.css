@@ -1,26 +1,30 @@
 .gameSpace {
   position: relative;
-  height: 482px;
-  width: 640px;
+  height: 241px;
+  width: 320px;
   display: inline-block;
   overflow: hidden;
 }
 
 .mole {
+  transition: margin-top;
+  transition-duration: 0.25s;
   position: absolute;
-  height: 262px;
-  width: 376px;
-  left: 110px;
-  top: 100px;
+  height: 131px;
+  width: 188px;
+  left: 55px;
+  top: 50px;
 }
 
 .dirt {
   position: absolute;
-  height: 220px;
-  width: 640px;
-  top: 262px;
+  height: 110px;
+  width: 320px;
+  top: 131px;
 }
 
 .gameSpace__mole--hidden {
-  margin-top: 430px;
+  margin-top: 215px;
+  /* transition: margin-top;
+  transition-duration: 0.25s; */
 }
