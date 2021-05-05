@@ -2,6 +2,8 @@
   position: relative;
   height: 482px;
   width: 640px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .mole {
@@ -18,4 +20,8 @@
   width: 640px;
   top: 262px;
   /* bottom: 0px */
+}
+
+.gameSpace__mole--hidden {
+  margin-top: 430px;
 }
